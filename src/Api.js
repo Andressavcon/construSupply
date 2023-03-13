@@ -92,7 +92,7 @@ export function FORNECEDOR_GET(id) {
 
 export function LIST_GET() {
   return {
-    url: `${API_URL}/api/fornecedor/`,
+    url: `${API_URL}/api/fornecedor/?_total=20`,
     options: {
       method: 'GET',
       headers: {

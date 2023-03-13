@@ -15,12 +15,13 @@
 
 .solucoesRowItem {
   display: inline-block;
-  width: 250px;
+  width: 200px;
   cursor: pointer;
 }
 
 .solucoesRowItem img {
   width: 100%;
+
   transform: scale(0.9);
   transition: all ease 0.2s;
 }

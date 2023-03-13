@@ -23,7 +23,7 @@ const SolucoesRow = ({ title, items }) => {
 
   function handleRightArrow() {
     let x = scrollX - Math.round(window.innerWidth / 2);
-    let listW = items.length * 250;
+    let listW = items.length * 200;
     if (window.innerWidth - listW > x) {
       x = window.innerWidth - listW - 60;
     }
@@ -44,7 +44,7 @@ const SolucoesRow = ({ title, items }) => {
       <div className={styles.solucoesRowListArea}>
         <div
           className={styles.solucoesRowList}
-          style={{ marginLeft: scrollX, width: items.length * 250 }}
+          style={{ marginLeft: scrollX, width: items.length * 200 }}
         >
           {items.length > 0 &&
             items.map((item, key) => (

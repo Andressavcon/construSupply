@@ -6,6 +6,7 @@ export default {
     const { url, options } = LIST_GET();
     const response = await fetch(url, options);
     const json = await response.json();
+    console.log(json);
     let fundacao = json.filter((f) => f.solucoes.includes('Fundação'));
     let estruturasdeparedes = json.filter((f) =>
       f.solucoes.includes('Estruturas de Paredes'),
