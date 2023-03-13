@@ -65,4 +65,7 @@
   .solucoesRowRight {
     opacity: 1;
   }
+  .solucoesRowItem {
+    width: 160px;
+  }
 }

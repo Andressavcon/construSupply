@@ -44,6 +44,7 @@
 
 @media (max-width: 40rem){
   .home {
+    min-height: 75vh;
     grid-template-columns: 1fr;
     background: none;
   }

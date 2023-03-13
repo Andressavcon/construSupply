@@ -10,7 +10,7 @@ const Solucoes = () => {
     const loadAll = async () => {
       let list = await GetList.getList();
       setSolucoesList(list);
-      console.log(list);
+//      console.log(list);
     };
     loadAll();
   }, []);
