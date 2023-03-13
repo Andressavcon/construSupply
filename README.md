@@ -29,7 +29,7 @@ Utilização de Hooks, React Router, useContext, PropTypes, componentes funciona
 </br>
 
 ## Futuras correções: 
-* Melhor customização da aplicação no geral;
+* Melhor customização do design da aplicação no geral;
 * Ajuste da linguagem toda para inglês;
 * Área estatísticas quando não possui fornecedor cadastrado;
 * Adição de mais especificações e filtros para uma busca melhor e mais direta de fornecedores;
