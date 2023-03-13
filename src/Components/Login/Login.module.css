@@ -1,0 +1,29 @@
+.login {
+  min-height: 100vh;
+  background: url('../../Assets/image.jpg') no-repeat center center;
+  background-size: cover;
+  gap: 2rem;
+}
+
+
+.forms {
+  min-height: 100vh;
+  background: linear-gradient(to left, #eee 25%, transparent 70%);
+  padding: 80px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center
+}
+
+@media (max-width: 40rem){
+  .login {
+    grid-template-columns: 1fr;
+    background: none;
+  }
+  .forms {
+    max-width: 100%;
+    background: none;
+    padding: 40px 75px;
+  }
+}

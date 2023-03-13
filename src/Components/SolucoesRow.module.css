@@ -1,0 +1,67 @@
+.solucoesRow {
+  margin-bottom: 30px;
+}
+
+.solucoesRow h2 {
+  margin: 0px 0px 0px 30px;
+}
+.solucoesRowList {
+  transition: all ease 0.5s;
+}
+
+.solucoesRowListArea {
+  overflow-x: hidden;
+}
+
+.solucoesRowItem {
+  display: inline-block;
+  width: 250px;
+  cursor: pointer;
+}
+
+.solucoesRowItem img {
+  width: 100%;
+  transform: scale(0.9);
+  transition: all ease 0.2s;
+}
+
+.solucoesRowItem img:hover {
+  transform: scale(1);
+}
+
+.solucoesRowLeft,
+.solucoesRowRight {
+  position: absolute;
+  width: 40px;
+  height: 200px;
+  background-color: rgba(192, 192, 192, 0.5);
+  color: #333;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+
+.solucoesRowLeft {
+  left: 0;
+}
+
+.solucoesRowRight {
+  right: 0;
+}
+
+.solucoesRow:hover .solucoesRowLeft,
+.solucoesRow:hover .solucoesRowRight {
+  opacity: 1;
+}
+
+@media (max-width: 64rem){
+  .solucoesRowLeft,
+  .solucoesRowRight {
+    opacity: 1;
+  }
+}
