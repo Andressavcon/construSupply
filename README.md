@@ -5,6 +5,8 @@ https://construsupply.netlify.app/
 
 Utilização de Hooks, React Router, useContext, PropTypes, componentes funcionais, propriedades…
 
+A aplicação possui ligação com uma REST Api do WordPress com endpoints customizados, juntamente com um plugin que permite a autenticação de usuários utilizando JSON Web Tokens.
+
 
 ## Site buscador de fornecedores ficticios da construção moderna 
 <b>*Login para teste: Fornecedor A*</b>
@@ -25,7 +27,6 @@ Utilização de Hooks, React Router, useContext, PropTypes, componentes funciona
 * Deslogar esse usuário.
 
 
-### A aplicação possui ligação com uma REST Api do WordPress com endpoints customizados, juntamente com um plugin que permite a autenticação de usuários utilizando JSON Web Tokens.
 </br>
 
 ## Futuras correções: 
